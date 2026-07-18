@@ -13,11 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        brightness: Brightness.dark,
-        primarySwatch: Colors.blue,
-      ),
-      home: const SplashScreen(),
+      theme: ThemeData(brightness: Brightness.dark, primarySwatch: Colors.blue),
+      home: SplashScreen(),
     );
   }
 }
